@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Filmku - Streaming Website Film</title>
+
+        <!-- slick -->
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+        <!-- // Add the new slick-theme.css if you want the default styling -->
+        <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bs/bootstrap.css" rel="stylesheet">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="assets/css/fa/all.min.css">
+        <!-- style -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-3.5.1.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="assets/js/bs/bootstrap.min.js"></script>
+        <!-- fontawesome -->
+        <script src="assets/js/fa/all.min.js"></script>
+        <!-- slick -->
+        <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-blue bg-white">
+            <a class="navbar-brand" href="#">Filmku</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="nav navbar-nav ml-auto justify-content-end">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="list.html">Film List</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="genre.html">Genre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="request.html">Request Film</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <form>
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </div>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid" style="margin-top: 2%;">
+            <div class="row">
+                <div class="col">
+                    <!-- anime musiman -->
+                    <div class="ongoing">
+                        <div class="title-ongoing">
+                            <strong><h5>Film List</h5></strong>
+                        </div>
+                        <div class="ongoing-slider">
+                            <div class="container-ongoing">
+                                <a href="#">
+                                    <img src="assets/img/movie/1.jpg" alt="movie" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> 5.3</div>
+                                    <div class="middle-ongoing">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                    <div class="desc-ongoing">The Nun</div>
+                                    <div class="status-ongoing">Completed</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/2.jpg" alt="movie" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 8.5 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">Joker</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/3.jpeg" alt="completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 7.5 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">The Lighthouse</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/4.jpg" alt="completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 7.9 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">The Irishman</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/5.jpg" alt="Completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 7.8 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">Little Women</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/6.jpg" alt="Completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 7.8 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">An Elephant Sitting Still</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/7.jpg" alt="Completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 8.1</div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">Portrait of a Lady on Fire</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                            <div class="container-ongoing">
+                                <img src="assets/img/movie/8.jpg" alt="Completed" class="image-ongoing">
+                                <div class="rating"><i class="fas fa-star"></i> 8.2 </div>
+                                <div class="middle-ongoing">
+                                <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                </div>
+                                <div class="desc-ongoing">Apollo 11</div>
+                                <div class="status-ongoing">Completed</div>
+                            </div>
+                        </div>
+                        <script>
+                            $(document).ready(function(){
+                                $('.ongoing-slider').slick({
+                                    dots: false,
+                                    autoplay: true,
+                                    arrows: false,
+                                    infinite: true,
+                                    speed: 300,
+                                    slidesToShow: 7,
+                                    slidesToScroll: 1,
+                                    responsive: [
+                                        {
+                                        breakpoint: 1024,
+                                        settings: {
+                                            slidesToShow: 5,
+                                            slidesToScroll: 1,
+                                            infinite: true,
+                                            dots: false
+                                        }
+                                        },
+                                        {
+                                        breakpoint: 600,
+                                        settings: {
+                                            slidesToShow: 3,
+                                            slidesToScroll: 1
+                                        }
+                                        },
+                                        {
+                                        breakpoint: 480,
+                                        settings: {
+                                            slidesToShow: 2,
+                                            slidesToScroll: 1
+                                        }
+                                        }
+                                        // You can unslick at a given breakpoint now by adding:
+                                        // settings: "unslick"
+                                        // instead of a settings object
+                                    ]
+                                    });
+                            });
+                        </script>
+                    </div>
+                    <!-- end anime musiman -->
+                </div>
+
+                <div class="col-sm-8 space">
+                    <!-- anime ongoing -->
+                    <div class="ongoing">
+                        <div class="title-ongoing">
+                            <strong><h5>New Film</h5></strong>
+                        </div>
+                        <div class="box-item">
+                            <a href="anime.html">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/1.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">Bad Education</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 49m <br>
+                                Update : 3 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/2.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">Lost Girls</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 35m <br>
+                                Update : 4 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/3.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">The Whistlers</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 38m <br>
+                                Update : 5 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/4.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">Mission: Impossible - Fallout</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 2h 28m <br>
+                                Update : 5 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/5.jpeg" alt="preview">
+                                </div>
+                                <div class="title-update">Ready or Not</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 34m <br>
+                                Update : 5 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/6.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">A Quiet Place</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 31m <br>
+                                Update : 5 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/7.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">Ouija 2</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 39m <br>
+                                Update : 6 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/8.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">Johnny English Strikes Again</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 28m <br>
+                                Update : 7 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/9.jpeg" alt="preview">
+                                </div>
+                                <div class="title-update">Bad Boys for Life</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 2h 4m <br>
+                                Update : 8 Hours Ago
+                            </div>
+                        </div>
+                        <div class="box-item">
+                            <a href="#">
+                                <div class="image-update">
+                                    <img src="assets/img/preview/10.jpg" alt="preview">
+                                </div>
+                                <div class="title-update">The Boss Baby</div>
+                            </a>
+                            <div class="desc-update">
+                                Status : Completed <br>
+                                Duration : 1h 37m <br>
+                                Update : 8 Hours Ago
+                            </div>
+                        </div>
+                        <ul class="pagination pagination-sm justify-content-center" style="clear: both;">
+                            <li class="page-item"><a class="page-link paging page-active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link paging" href="#">2</a></li>
+                        </ul>
+                    </div>
+                    <!--new film -->
+
+                    <!-- film -->
+                    <div class="ongoing space">
+                        <div class="title-ongoing">
+                            <div class="row">
+                                <div class="col"><strong><h5>Upcoming Film</h5></strong></div>
+                            
+                                <div class="col"><a href="movie.php" class="button-movie">More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="movie-slider">
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/1.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">The Croods: A New Age</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/3.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Nomadland</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/2.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Zappa</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/4.png" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Half Brothers</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/9.png" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Minari</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/5.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">I'm Your Woman</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/6.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">All My Life</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/7.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Elyse</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/8.png" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Wander</div>
+                                </a>
+                            </div>
+                            <div class="container-ongoing container-movie">
+                                <a href="#">
+                                    <img src="assets/img/upcoming/10.jpg" alt="ongoing" class="image-ongoing">
+                                    <div class="rating"><i class="fas fa-star"></i> N/A</div>
+                                    <div class="middle-ongoing middle-movie">
+                                        <div class="text-ongoing"><i class="fas fa-play"></i></div>
+                                    </div>
+                                <div class="movie-hover">Dear Santa</div>
+                                </a>
+                            </div>
+                        </div>
+                        <script>
+                            $('.movie-slider').slick({
+                                dots: false,
+                                autoplay: true,
+                                arrows: false,
+                                infinite: true,
+                                speed: 300,
+                                slidesToShow: 5,
+                                slidesToScroll: 1,
+                                responsive: [
+                                    {
+                                    breakpoint: 1024,
+                                    settings: {
+                                        slidesToShow: 3,
+                                        slidesToScroll: 1,
+                                        infinite: true,
+                                        dots: false
+                                    }
+                                    },
+                                    {
+                                    breakpoint: 600,
+                                    settings: {
+                                        slidesToShow: 3,
+                                        slidesToScroll: 1
+                                    }
+                                    },
+                                    {
+                                    breakpoint: 480,
+                                    settings: {
+                                        slidesToShow: 2,
+                                        slidesToScroll: 1
+                                    }
+                                    }
+                                    // You can unslick at a given breakpoint now by adding:
+                                    // settings: "unslick"
+                                    // instead of a settings object
+                                ]
+                                });
+                        </script>
+                    </div>
+                    <!-- end anime movie -->
+                </div>
+
+                <div class="col-sm-4 space">
+                    <!-- genre -->
+                    <div class="ongoing">
+                        <div class="title-ongoing">
+                            <strong><h6>Genre</h6></strong>
+                        </div>
+                        <ul class="ul-genre">
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Action <span class="right count">(18)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Comedy <span class="right count">(26)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Fantasy <span class="right count">(18)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Magic <span class="right count">(32)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Romance <span class="right count">(45)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; School <span class="right count">(37)</span></a></li>
+                            <li><a href="#"><i class="fas fa-caret-right"></i> &nbsp; Drama <span class="right count">(28)</span></a></li>
+                        </ul>
+                    </div>
+                <!-- end genre -->
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <i class="fa fa-copyright" aria-hidden="true"></i> Copyright Filmku - Streaming Website Film
+        </footer>
+
+        <div class="back-top"><i class="fas fa-chevron-up"></i></div>
+    </body>
+    
+<script type="text/javascript">
+    var $backToTop = $(".back-top");
+    $backToTop.hide();
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 100) {
+        $backToTop.fadeIn();
+        } else {
+        $backToTop.fadeOut();
+        }
+    });
+
+    $backToTop.on('click', function(e) {
+        $("html, body").animate({scrollTop: 0}, 500);
+    });
+</script>
+</html>
